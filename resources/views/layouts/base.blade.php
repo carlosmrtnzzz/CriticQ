@@ -8,7 +8,7 @@
     <title>CriticQ | @yield('titulo')</title>
 
     <!-- Link estilos CSS -->
-    <link rel="stylesheet" href="public\css\estilos.css">
+    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 
     <!-- Link CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
